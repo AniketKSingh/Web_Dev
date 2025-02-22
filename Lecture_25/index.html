@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            background-color: beige;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+            width: 400px;
+            height: 400px;
+            background-color: aquamarine;
+            border: black 3px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            transition-property: all;
+            transition-duration: 5s;
+            transition-timing-function: ease-in;
+            transition-delay: 2s;
+
+
+
+        }
+        .box:hover{
+            /* transform: rotate(45deg); 
+            transform: scale(2); 
+            transform: scale(0.5); 
+            transform: rotate(360deg); 
+            transform: skew(-45deg); */
+            transform: translate(500px,500px);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            This is Codehelp
+        </div>
+    </div>
+</body>
+</html>

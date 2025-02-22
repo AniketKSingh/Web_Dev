@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form>
+        <h2>My Feedback Form</h2>
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                
+            </li>
+            <li>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </li>
+            <li>
+                <label for="password1">Password:</label>
+                <input type="password" name="password1" id="password1">
+            </li>
+        </ul>
+        <ul>
+            <li>
+                Please check all the emotions that apply to you
+                <br/>
+                <ul>
+                    <li>
+                        <label for="angry">Angry</label>
+                        <input type="checkbox" name="angry" id="angry">
+                    </li>
+                    <li>
+                        <label for="sad">Sad</label>
+                        <input type="checkbox" name="sad" id="sad">
+                    </li>
+                    <li>
+                        <label for="happy">Happy</label>
+                        <input type="checkbox" name="happy" id="happy">
+                    </li>
+                    <li>
+                        <label for="am">Ambivalent</label>
+                        <input type="checkbox" name="am" id="am">
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                How satisfied were you with our service?
+                <br/>
+                <ul>
+                    <li>
+                        <label for="vs">Very Satisfied</label>
+                        <input type="radio" id="vs" name="radio">
+                        <br/>
+                    </li>
+                    <li>
+                        <label for="s">Satisfied</label>
+                        <input type="radio" id="s" name="radio">
+                        <br/>
+                    </li>
+                    <li>
+                        <label for="dc">Don't care</label>
+                        <input type="radio" id="dc" name="radio">
+                        <br/>
+                    </li>
+                    <li>
+                        <label for="d">Dissatisfied</label>
+                        <input type="radio" id="d" name="radio">
+                        <br/>
+                    </li>
+                    <li>
+                        <label for="vd">Very Dissatisfied</label>
+                        <input type="radio" id="vd" name="radio">
+                        <br/>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <label for="comm">Further Comments</label>
+                <textarea name="comm" id="comm" rows="10" cols="40"></textarea>
+            </li>
+        </ul>
+        <ul>
+            <label for="photo">Bio Photo</label>
+            <input type="file" accept="image/*">
+        </ul>
+        <ul>
+            <li>
+                <label for="location">Location Visited:</label>
+            <select name="location" id="location">
+                <option value="Paris">Paris</option>
+                <option value="Rome">Rome</option>
+                <option value="Adelaide">Adelaide</option>
+            </select>
+ 
+            </li>
+            <li>
+                <input type="submit" value="Submit">
+            </li>
+            
+        </ul>
+    </form>
+</body>
+</html>

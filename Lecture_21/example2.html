@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            background-color: beige;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            width:950px;
+        }
+
+        #boxleft{
+            background-color: aqua;
+            border: 2px solid brown;
+            width:47%;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #boxright{
+            background-color: yellow;
+            border: 1px solid red;
+            width: 47%;
+            margin: 2px;
+            padding: 2px;
+        }
+
+        @media (max-width: 640px){
+            .container{
+               flex-direction:column;
+            }
+        }
+
+        @media (min-width:640px){
+            .container{
+                flex-direction:row;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="boxleft">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae voluptas pariatur eaque accusamus soluta placeat consequuntur unde commodi enim, hic qui minus esse totam vel ipsum eligendi illum? Vel cumque, quos porro dolor tempore cum sed commodi libero exercitationem enim atque amet obcaecati labore placeat minima voluptas adipisci facere expedita! Voluptate placeat quibusdam nam, ad quis officia aliquid magnam maxime, consequatur rem sed natus et illum accusantium suscipit doloribus assumenda libero. Cum magnam saepe minima suscipit consequuntur quod illo nostrum repellendus, nisi quasi expedita error rem molestiae ipsum debitis officiis aut repudiandae modi quaerat, praesentium pariatur blanditiis exercitationem cumque. Suscipit nisi eum repellat velit facilis, ea distinctio odit hic vitae quam quisquam in illo quos quaerat fugit expedita, tempora voluptatibus incidunt exercitationem necessitatibus minima ab nulla dolorem? Velit, assumenda laborum. Laboriosam officiis minima exercitationem voluptatem, quas esse eius mollitia sequi recusandae eligendi quaerat dicta, rerum libero soluta consectetur eos omnis, eaque voluptatibus perferendis ea consequatur expedita earum laborum? Omnis eligendi consequatur inventore dicta asperiores. Rem voluptatem animi atque repellendus nisi laboriosam aperiam quibusdam non incidunt placeat, impedit accusantium, quasi esse quos. Soluta, reprehenderit? Facere dolore itaque ab unde libero, quos similique culpa magnam pariatur debitis, ipsum facilis. Explicabo, incidunt!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum eaque id dolorem eos hic quo itaque quibusdam! Labore officiis enim praesentium odio, ratione dolorum fuga nihil blanditiis architecto suscipit, laboriosam impedit dolores. Dolore blanditiis, earum cum inventore amet quis veritatis nobis odio, ullam beatae ut dolorem, eum praesentium error officia id illo quisquam nesciunt ipsa alias tempore. Nihil magnam atque quas reprehenderit fugiat fugit recusandae? Repellat eos expedita officiis dignissimos. Eaque, cum labore! Enim possimus similique excepturi optio aperiam minus aspernatur eligendi soluta eveniet autem. Excepturi asperiores necessitatibus maiores! Ab, quod omnis. Libero itaque enim optio laborum sunt alias tempora harum et quibusdam, quae, cum illum repudiandae molestias omnis voluptates, recusandae nobis dignissimos aliquam. Sed, nulla deserunt velit quis hic earum quos deleniti, porro quisquam suscipit repellat, officiis molestias nobis enim praesentium similique vel et asperiores maxime dolores sit veritatis expedita soluta animi! Eligendi, excepturi at. Quasi cum distinctio vel! Corrupti asperiores, ex possimus quas pariatur cupiditate enim porro. Tenetur possimus dolores amet sint mollitia consequuntur, excepturi sunt ipsum laboriosam blanditiis animi earum minus, explicabo ipsam, doloribus odit delectus quisquam? Saepe, maxime minus nulla nobis in, harum inventore eveniet corporis odio hic non, natus quo iure provident rerum illo laborum.</p>
+        </div>
+
+        <div id="boxright">
+            <img src="maharana.jpeg" id="image1" />
+        </div>
+    </div>
+</body>
+</html>
