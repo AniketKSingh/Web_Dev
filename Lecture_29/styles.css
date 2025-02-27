@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    max-width: 46vw;
+    max-width: 50%;
     padding: 2rem 1rem;
     margin: auto;
     
@@ -29,7 +29,6 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-  
 }
 
 .header_title{
@@ -62,7 +61,14 @@ a{
     border: 1px solid rgb(219, 219, 219);
     border-radius: 8px;
     overflow: hidden;
-    max-height: 45vh;
+    /* min-height: 40%;
+    height: 45%;  */
+
+    /* overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(233, 224, 224);
+    border-radius: 8px; */
 
 }
 
@@ -119,7 +125,7 @@ a{
     justify-content: space-between; 
     align-items: center;
     padding: 0.5rem;
-    width: 45%;
+    width: 50%;
     
 }
 .author_avatar_container{
@@ -172,7 +178,13 @@ a{
     color: blue;
 }
 
-/* .card_title:hover .card_title{
-    color: blue;
-} */
+
+@media (max-width: 850px) {
+    .main_container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card_footer_container{
+        flex-direction: column;
+    }
+}
 
