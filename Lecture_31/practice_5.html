@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pattern1</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+        }
+        .container{
+            background-color: rgb(206, 204, 204);
+            display: grid;
+            gap: 2rem;
+            grid-template-areas:
+                       "one one two three"
+                       "four five six ."
+                       "seven seven eight nine"
+                       "seven seven ten ."
+                       "eleven eleven eleven twelve";
+                       /* display: flex; */
+            padding: 4rem;
+            height: 100vh;
+            width: 100vw;
+            
+
+        }
+        .item{
+            background-color: rgb(10, 236, 236);
+            color: white;
+            border: 2px solid black;
+            /* height: 300px;
+            width: 300px; */
+        }
+
+        #one{
+            grid-area: one;
+        }
+        #two{
+            grid-area: two;
+        }
+        #three{
+            grid-area: three;
+        }
+        #four{
+            grid-area: four;
+        }
+        #five{
+            grid-area: five;
+        }
+        #six{
+            grid-area: six;
+        }
+        #seven{
+            grid-area: seven;
+        }
+        #eight{
+            grid-area: eight;
+        }
+        #nine{
+            grid-area: nine;
+        }
+        #ten{
+            grid-area: ten;
+        }
+        #eleven{
+            grid-area: eleven;
+        }
+        #twelve{
+            grid-area: twelve;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="one"></div>
+        <div class="item" id="two"></div>
+        <div class="item" id="three"></div>
+        <div class="item" id="four"></div>
+        <div class="item" id="five"></div>
+        <div class="item" id="six"></div>
+        <div class="item" id="seven"></div>
+        <div class="item" id="eight"></div>
+        <div class="item" id="nine"></div>
+        <div class="item" id="ten"></div>
+        <div class="item" id="eleven"></div>
+        <div class="item" id="twelve"></div>
+        
+    </div>
+</body>
+</html>

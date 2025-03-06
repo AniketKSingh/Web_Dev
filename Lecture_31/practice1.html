@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pattern1</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+        }
+        .container{
+            background-color: rgb(206, 204, 204);
+            display: grid;
+            gap: 2rem;
+            grid-template-areas:
+                       "one two three"
+                       "four five six";
+                       /* display: flex; */
+            padding: 4rem;
+            height: 100vh;
+            width: 100vw;
+            
+
+        }
+        .item{
+            background-color: rgb(10, 236, 236);
+            color: white;
+            border: 2px solid black;
+            /* height: 300px;
+            width: 300px; */
+        }
+
+        #one{
+            grid-area: one;
+        }
+        #two{
+            grid-area: two;
+        }
+        #three{
+            grid-area: three;
+        }
+        #four{
+            grid-area: four;
+        }
+        #five{
+            grid-area: five;
+        }
+        #six{
+            grid-area: six;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="one"></div>
+        <div class="item" id="two"></div>
+        <div class="item" id="three"></div>
+        <div class="item" id="four"></div>
+        <div class="item" id="five"></div>
+        <div class="item" id="six"></div>
+        
+    </div>
+</body>
+</html>
