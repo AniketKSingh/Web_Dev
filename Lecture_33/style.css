@@ -219,6 +219,12 @@ body{
     height: 57vh;
     border: none;
 }
+@media screen and (max-width: 768px) {
+    .image-container{
+        height: 40vh;
+        width: 70vw;
+    }
+}
 
 .section-image{
     height: 100%;
@@ -264,6 +270,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
+    margin-bottom: 2rem;
     animation: slideFromLeft 1s ease forwards;
 
 }
@@ -308,3 +315,109 @@ body{
     }
 }
 
+.feature-container{
+    background-color: var(--background-color);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.feature-content{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.main-title{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.main-discription{
+    color: rgb(141, 141, 141);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feature-grid{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 1rem;
+}
+
+.feature-svg{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.icon-container{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2563eb;
+    border-radius: 1rem;
+    gap: 1rem;
+    padding: 1.8rem;
+}
+
+.feature-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feature-title{
+    color: var(--background-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.feature-description{
+    color: var(--background-color);
+    font-size: 1rem;
+
+}
+
+.feature-card:nth-child(1){
+    background-color: #4a90e2;
+}
+.feature-card:nth-child(2){
+    background-color: #ff6289;
+}
+.feature-card:nth-child(3){
+    background-color: #fcbf58;
+}
+.feature-card:nth-child(4){
+    background-color: #44bfc3;
+}
+.feature-card:nth-child(5){
+    background-color: #77b05d;
+}
+.feature-card:nth-child(6){
+    background-color: #7d78b1;
+}
+
+@media screen and (max-width: 768px) {
+    .feature-grid{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    
+}
