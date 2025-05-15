@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(128, 186, 252, 0.562);
+}
+
+.content{
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    
+}
+
+.topbox{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 3rem;
+}
+
+.para1{
+   color: #777;
+   font-size: 1.5rem;
+}
+.outer{
+    display: flex;
+    gap: 2rem;
+    background-color: aliceblue;
+    /* padding-right: 0.7rem; */
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 20%;
+    height: 2.5rem;
+    color: #777;
+    
+}
+.inner{
+    background-color: rgb(84, 73, 243);
+    padding: 0.3rem 0.7rem;
+    border: none;
+    border-radius: 1rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    
+}
+
+.bottombox{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: aliceblue;
+    padding: 2rem;
+    border: none;
+    border-radius: 1.5rem;
+    width: 40%;
+
+
+}
+
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    border: none;
+    border-radius: 1.5rem;
+    width: 40%;
+
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.image{
+    height: 2rem;
+    width: 2rem;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 1.5rem;
+}
+
+
+.plantype{
+    font-size: 2.4rem;
+}
+
+#plan-offer{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.offer{
+    font-size: 1.2rem;
+    height: 1.5rem;
+    width: 6rem;
+    border: none;
+    border-radius: 0.3rem;
+    margin-top: 0.4rem;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.3rem;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+
+    
+}
+
+.desc{
+    color: #777;
+
+}
+.value{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.pricing{
+    display: flex;
+    gap: 1rem;
+    justify-content: start;
+    align-items: center;
+    
+}
+.pricedetails{
+    color: #777;
+    
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.startbut{
+    border: 1px solid black;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 0.5rem 0rem;
+    border-radius: 0.4rem;
+}
+#rightbox-start{
+    background-color: black;
+    color: aliceblue;
+}
+
+.startbut:hover{
+    transform: scale(1.08);
+    border: 1px solid pink;
+    -webkit-box-shadow: 2px 2px 5px 2px #FF8080, -2px 2px 4px 2px #FFE488, -2px -2px 5px 2px #8CFF85, 2px -3px 5px 2px #80C7FF, 3px 4px 5px 2px #E488FF, -3px 3px 5px 3px #FF616B, -3px -2px 5px 1px #8E5CFF, 2px 5px 5px 2px rgba(0,0,0,0); 
+box-shadow: 2px 2px 5px 2px #FF8080, -3px 2px 4px 2px #FFE488, -2px -3px 4px 2px #8CFF85, 3px -2px 5px 2px #80C7FF, 3px 2px 4px 2px #E488FF, -2px 3px 5px 2px #FF616B, -2px -3px 5px 1px #8E5CFF, 2px 2px 3px px rgba(0,0,0,0);
+}
