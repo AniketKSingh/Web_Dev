@@ -38,7 +38,4 @@
 // }
 
 let errorCode = 100;
-if(errorCode == 100){
-    throw new console.error("Invalid Json");
-    
-}
+if(errorCode == 100){}
