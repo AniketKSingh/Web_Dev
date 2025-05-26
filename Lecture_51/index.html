@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="fdiv">
+        <p id="fpara" class="textMatter"> First Paragraph
+            <p id="innerPara">inner Paragraph</p> </p>
+    <h1 id="fheading"  class="textMatter"> First Heading</h1>
+    <p id="spara" class="textMatter">Second Para </p>
+
+    </div>
+    
+    
+
+    <!-- <script>  // innerHTML usage
+        let element = document.querySelector('#fpara');
+        let content = element.innerHTML;
+        console.log(content);
+
+        let newPara = '<p> New Line</P> ';
+        element.innerHTML = newPara;
+    </script> -->
+
+    <!-- <script> // outerHTML
+        let element = document.getElementById('fpara');
+        console.log(element);
+
+        let content = element.outerHTML;
+        console.log(content);
+
+        let newPara = '<div> Hii after outer HTML </div>';
+        element.outerHTML=newPara;
+
+    </script> -->
+
+   <!-- <script> // innerText
+        let element = document.querySelector('#spara');
+        let content = element.innerText;
+        console.log(element);
+        console.log(content);
+
+        let newElement = 'changed Para';
+
+        element.innerText = newElement;
+ 
+
+        
+    </script> -->
+
+    <!-- <script> // textContent 
+        let element = document.querySelector('#fpara');
+        let content = element.textContent;
+        console.log(content);
+
+        let newPara = 'new content for first para';
+        element.textContent = newPara;
+    </script> -->
+
+    <!--  adding element  -->
+    <!-- <script>
+        let fHeading = document.createElement('h1');
+        fHeading.textContent = "My Name is Love Babbar";
+
+        let bodyTag = document.querySelector('body');
+        console.log(bodyTag);
+        bodyTag.appendChild(fHeading);
+
+    </script> -->
+
+    
+    
+
+</body>
+</html>

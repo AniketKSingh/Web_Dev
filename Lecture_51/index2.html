@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="background-color: aquamarine;">
+        Hello Jee
+
+        <div class="myDiv" style="background-color: pink; border: 2px solid brown;">
+            <p id="fpara">First</p>
+            <h2 id="heading">Second</h2>
+            <p id="spara"> Third </p>
+        </div>
+
+    </div>
+
+    <script>
+        // beforebegin -> before starting of the div 
+        // afterbegin -> after starting of div on the top 
+        // beforeend -> before the end of the parent block 
+        // afterend -> after the end of the parent block
+
+
+        let mydiv = document.getElementsByClassName('myDiv')[0];
+        let newElement = document.createElement('span');
+        newElement.textContent = "This is me Love babbar";
+
+        mydiv.insertAdjacentElement('beforeend', newElement);  
+    </script>
+</body>
+</html>
